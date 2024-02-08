@@ -115,7 +115,7 @@
   overflow: scroll;
 }
 .menu-aside {
-  height: 200vh;
+  height: 100vh;
   background: rgb(19, 18, 18);
   width: 25vw;
 }
@@ -151,13 +151,19 @@
   align-items: center;
 }
 
-.lista1 {
+.playlist {
+  border-top: solid 0.5px #ffffff4d;
+  height: 150px;
+}
+
+.playlist-song {
+  height: 100%;
+}
+
+.playlist-song {
   overflow-y: scroll;
 }
 
-.playlist {
-  border-top: solid 0.5px #ffffff4d;
-}
 .playlists:last-child {
   border-bottom: solid 0.5px #ffffff4d;
 }
